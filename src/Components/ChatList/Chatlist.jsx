@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import {getContacts} from '../../services/getContacts'
-import AddNewContact from "../AddNewContact/AddNewContact"
+import AddNewContact from "../AddNewContact/AddNewContact.jsx"
 import  contacts from "../../data/data_users"
 import { Link } from "react-router-dom"
 import './Chatlist.css';
