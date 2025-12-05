@@ -1,0 +1,43 @@
+
+    .inputMessage{
+        background-color: #EFEEEA;
+        border-top: 2px solid #191919;
+        padding: 10px;
+        height: 114px;
+    }
+    .inputMessage form{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputMessage form div{
+        flex: 8;
+        text-align: center;
+    }
+    .inputMessage input{
+        background-color: white;
+        width: 95%;
+        height: 100%;
+        height: 40px;
+        border-radius: 30px;
+    }
+    .inputMessage button{
+        flex: 2;
+        border-radius: 30px;
+        height: 40px;
+        background-color: #191919;
+        color: white;
+        font-weight: bold;
+    }
+    input[type="text"] {
+        padding-left: 15px; 
+        padding-right: 10px;    
+    }
+    input[type="text"]::placeholder {
+        color: #999; 
+        opacity: 1; 
+    }
+    

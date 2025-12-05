@@ -1,0 +1,41 @@
+.chatItem {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #EFEEEA;
+    border-right: 2px solid #191919;
+    text-align: center;
+    height: 100%;
+    height: 900px;
+    overflow: scroll;
+    flex: 1;
+}
+
+.chatItem h2 {
+    color: #191919;
+}
+
+.chatItem img {
+    width: 80px;
+    border-radius: 90px;
+    border: 2px solid #191919;
+}
+
+.chatItem a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #191919;
+    border-bottom: 0.5px solid #191919;
+    gap: 5px;
+}
+
+.contacts {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 5px;
+}

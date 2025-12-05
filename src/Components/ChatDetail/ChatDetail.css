@@ -1,0 +1,59 @@
+
+    .chat{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .chatInfo{
+        background-color: #EFEEEA;
+        border-bottom: 1px solid #191919;
+        padding: 20px;
+        height: 139px;
+    }
+    .chatInfo h1{
+        padding: 0;
+    }
+    .chatMessagesList{
+        background-color: #EFEEEA;
+        overflow: scroll;
+        height: 648px;
+    }
+    .messages{
+        display: flex;
+        flex-direction: column;
+    
+        padding: 10px;
+    }
+    
+    .message{
+        color: #EBF0EC;
+        background-color: #191919;
+        border-radius: 15px 15px 15px 0px;
+        padding: 10px;
+        margin: 5px;
+    
+        display: flex;
+        flex-direction: column;
+    }
+    .ownerMessage{
+        color: #191919;
+        background-color: #EFEEEA;
+        border-radius: 15px 15px 0px 15px;
+        border: 1px solid #191919;
+        padding: 10px;
+        margin: 5px;
+    
+        display: flex;
+        flex-direction: column;
+    
+        text-align: right;
+    }
+    .author{
+        font-weight: bold;
+    }
+    .noMessages{
+        font-size: 20px;
+        color: #191919;
+        text-align: center;
+        margin: auto;
+    }
