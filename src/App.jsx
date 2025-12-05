@@ -1,7 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
-import Chatscreen from './screens/chatScreen/chatScreen'
-import Contactlist from './screens/contactList/contactList'
-import ChatDetail from './Components/ChatDetail/ChatDetail'
+import Contactlist from './screens/contactList/contactList.jsx'
+
 
 function App() {
 

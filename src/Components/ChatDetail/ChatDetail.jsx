@@ -1,5 +1,5 @@
 import React from "react";
-import CreateNewMessage from "../../Components/CreateNewMessage/CreateNewMessage"
+import CreateNewMessage from "../../Components/CreateNewMessage/CreateNewMessage.jsx"
 import "./ChatDetail.css"
 
 function ChatDetail({ chatSelected, addNewMessage }) {

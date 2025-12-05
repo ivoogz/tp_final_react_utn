@@ -1,10 +1,10 @@
 import React, { useEffect, useEffectEvent, useState } from "react"
-import { getContacts } from '../../services/getContacts'
-import contacts from "../../data/data_users"
+import { getContacts } from '../../services/getContacts.js'
+import contacts from "../../data/data_users.js"
 import { useParams } from "react-router-dom"
-import Chatlist from "../../Components/ChatList/ChatList"
-import ChatDetail from "../../Components/ChatDetail/ChatDetail"
-import CreateNewMessage from "../../Components/CreateNewMessage/CreateNewMessage"
+import Chatlist from "../../Components/ChatList/Chatlist.jsx"
+import ChatDetail from "../../Components/ChatDetail/ChatDetail.jsx"
+import CreateNewMessage from "../../Components/CreateNewMessage/CreateNewMessage.jsx"
 import "./contactList.css"
 
 function Contactlist() {
